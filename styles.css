@@ -1,0 +1,30 @@
+.student-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.student-table th,.student-table td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: left;
+}
+
+.student-table th {
+  background-color: rgb(142, 67, 134);
+  font-family: Arial, sans-serif; /* نوع الخط الجديد */
+}
+
+.color {
+  font-family: Georgia;
+  color: rgb(121, 52, 148); /* لون العنوانين الجدول */
+}
+
+/* تدرج الألوان لصفوف الجدول */
+.student-table tr:nth-child(even) {
+  background-color: #f1c1e0; /* رديء فاتح */
+}
+
+.student-table tr:nth-child(odd) {
+  background-color: #f5eef2; /* رديء أغمق بقليل */
+}
