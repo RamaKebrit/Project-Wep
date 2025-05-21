@@ -20,7 +20,7 @@
   color: rgb(121, 52, 148); 
 }
 
-/* تدرج الألوان لصفوف الجدول */
+
 .student-table tr:nth-child(even) {
   background-color: #f1c1e0; 
 }
