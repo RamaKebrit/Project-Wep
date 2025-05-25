@@ -29,3 +29,7 @@
 .student-table tr:nth-child(odd) {
   background-color: #f5eef2;
 }
+.z
+{
+  border: 2px solid rgb(142, 67, 134);
+}
