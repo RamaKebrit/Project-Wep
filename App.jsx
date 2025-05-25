@@ -26,7 +26,7 @@ const StudentTable = () => {
     students.filter(student => student.level === parseInt(selectedLevel));
 
   return (
-    <div>
+    <div className="z">
       <h1 className="color">Table for University Student</h1>
       <label htmlFor="levelFilter">Filter by level: </label>
       <select id="levelFilter" value={selectedLevel} onChange={handleLevelChange}>
